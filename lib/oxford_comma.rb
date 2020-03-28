@@ -4,6 +4,6 @@ case array.length
       array.join
     when 2
      array.join(" and ")
- else array[-1] = ", and #{array[-1]}"
+ else array[-1] = "#{array[0...,-1]}, and #{array[-1]}"
  end
 end
