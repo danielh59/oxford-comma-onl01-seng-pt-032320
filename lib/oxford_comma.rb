@@ -7,6 +7,5 @@ case array.length
  else 
   array.join(",")
    array[-1] = " and #{array[-1]}"
-  n
  end
 end
